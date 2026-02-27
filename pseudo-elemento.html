@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-elemento</title>
+</head>
+<body>
+  <main>
+    <style>
+      p::after{
+        content:" texto que vai entrar no final";
+      }
+      
+      p::before{
+        content: "texto que vai entrar antes ";
+      }
+    
+      p::first-letter{
+        font-size: 64px;
+        font-weight: 700;
+      }
+      p::first-line{
+        color: brown;
+      }
+      h1::first-letter{
+        color:red;
+        font-size: larger;
+      }
+      h1::first-line{
+        color:royalblue;
+    
+      }
+    </style>
+    <h1>Pseudo-Elemento</h1>
+    <p>
+      Pseudo-elementos CSS (::before, ::after, ::first-letter) estilizam partes específicas de um elemento ou inserem conteúdo fictício, sem alterar o HTML. Diferenciam-se das pseudo-classes por usarem dois pontos duplos (::) e focarem em subpartes do conteúdo, como a primeira letra ou linha, em vez de estados (ex: :hover).Este vídeo explica o conceito de pseudo-elementos e mostra exemplos de uso.
+    </p>
+  </main>
+</body>
+</html>
