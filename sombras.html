@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sombras no Css</title>
+</head>
+<body>
+  <main>
+    <style>
+      *{
+        padding: 0;
+        margin:0 ;
+      }
+      html{
+        font-size:62.5% ;
+      }
+      div{
+        margin: 10rem;
+      width:20rem ;
+      height:20rem ;
+      background-color: green;
+
+      /*deslocamneto veertical, deslocamento verticxal , cor*/
+
+      box-shadow:1rem  2rem  rgba(0,0,0,0.2);  
+
+        /*deslocamneto veertical, deslocamento verticxal , raio de desfoque de cor*/
+
+       box-shadow: 1rem 1rem 2rem rgba(0,0,0,0.2);
+
+         /*deslocamneto veertical, deslocamento verticxal , raio de propagação de cor*/
+         box-shadow: -5rem -5rem 0rem -2rem rgba(0,0,0,0.2);
+        
+         /* dentro / fora ,deslocamnto vertical, deslocamnto horizontal,raio de desfoque, raio de propagação , cor*/
+                  box-shadow: inset -5rem -5rem 1rem -2rem rgba(0,0,0,0.2);
+ /*Adicionando mais de uma sombra*/
+
+         box-shadow: -5rem -5rem  1rem -2rem  rgb( 0,0,0,0.2 ),
+         5rem 5rem  1rem 2rem  red,
+         5rem -5rem 1rem 2rem yellow;
+          
+      }
+    </style>
+    <div></div>
+  </main>
+</body>
+</html>
