@@ -1,0 +1,10 @@
+.cabeçalho{
+  display: flex;          /* Ativa o Flexbox */
+  flex-wrap: wrap;        /* Quebra a linha se não couber na tela */
+  justify-content: center; /* Centraliza os cards */
+  gap: 200px;              /* Espaço entre os cards */
+  padding: 10px;
+  background-color: aquamarine;
+  font-size: larger;
+  text-align: center;
+}
