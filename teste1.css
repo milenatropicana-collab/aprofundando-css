@@ -1,19 +1,23 @@
-.flex-container {
-  display: flex; /* Ativa o Flexbox */
-  background-color: #f1f1f1;
-  padding: 10px;
-  gap: 10px; /* Adiciona espaço entre os itens */
-  width: 300px;
-  margin: 300px;
-}
-
-. {
-  background-color: dodgerblue;
-  color: white;
+.cabeçalho {
+  display: flex; 
+  flex-wrap: wrap;/* Ativa o Flexbox */
+  background-color:pink;
   padding: 5px;
-  font-size: 10px;
-  text-align: center;
-  flex: 1; /* Faz todos os itens crescerem igualmente para ocupar o espaço */
+  gap: 100px;
+  text-align: right;
+  font-size: x-large; 
+ flex: 1;/* Adiciona espaço entre os itens */
+}
+.cabeçalho-item{
+  display:inline-block;
+  background-color: blue;
+  color: aqua;
+  box-shadow: 0 0 1.6rem 0.4rem red;
+  padding: 2 3 4;
+  border-radius: 2rem;
+}
+.img-wpp{
+  position:fixed;
 }
 
 
